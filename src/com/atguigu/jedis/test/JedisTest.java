@@ -12,6 +12,7 @@ public class JedisTest {
 		//使用
 		String result = jedis.ping();
 		System.out.println(result);
+		System.out.println("local");
 		
 		//关闭客户端
 		jedis.close();
