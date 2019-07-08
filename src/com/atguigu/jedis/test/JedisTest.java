@@ -12,6 +12,8 @@ public class JedisTest {
 		//使用
 		String result = jedis.ping();
 		System.out.println(result);
+		System.out.println("remote");
+		
 		
 		//关闭客户端
 		jedis.close();
