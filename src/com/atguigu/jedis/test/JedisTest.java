@@ -13,6 +13,7 @@ public class JedisTest {
 		String result = jedis.ping();
 		System.out.println(result);
 		System.out.println("local");
+		System.out.println("remote");
 		
 		//关闭客户端
 		jedis.close();
